@@ -1,21 +1,21 @@
 {
-  "name": "rest-api-client",
-  "publisher": "unjinjang",
-  "displayName": "REST API Client",
+  "name": "restdoc",
+  "publisher": "restdoc",
+  "displayName": "restdoc",
   "icon": "icons/images/icon.png",
   "description": "Simple and intuitive API Client made into a VSCode extension.",
-  "version": "1.1.5",
+  "version": "1.0.0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/REST-API-Client/API-Client-VSCode-Extension/issues"
+    "url": "https://github.com/restdoc/API-Client-VSCode-Extension/issues"
   },
   "author": {
-    "name": "Unjin Jang",
-    "email": "unwls0@gmail.com"
+    "name": "restdoc",
+    "email": "support@restdoc.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/REST-API-Client"
+    "url": "https://github.com/restdoc"
   },
   "engines": {
     "vscode": "^1.68.0"
@@ -51,19 +51,19 @@
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "RESTAPIClient",
-          "title": "REST API Client",
+          "id": "restdoc",
+          "title": "restdoc",
           "icon": "icons/svg/httpIcon.svg"
         }
       ]
     },
     "views": {
-      "RESTAPIClient": [
+      "restdoc": [
         {
           "type": "webview",
           "id": "rest-api-client.collectionMenu",
-          "name": "REST API Client",
-          "contextualTitle": "REST API Client"
+          "name": "restdoc",
+          "contextualTitle": "restdoc"
         }
       ]
     }

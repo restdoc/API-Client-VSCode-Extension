@@ -212,7 +212,7 @@ class MainWebViewPanel {
         <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>REST API Tester</title>
+          <title>restdoc API Tester</title>
           <link href="${resetCssSrc}" rel="stylesheet">
           <link href="${mainStylesCssSrc}" rel="stylesheet">
         </head>
